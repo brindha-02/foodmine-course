@@ -10,7 +10,7 @@ export const sample_foods: Food[]=[
   favourite:true,
   origins: ['Italy'],
   stars:4.8,
-  imageUrl:'src/food-1.jpg',
+  imageUrl:'assets/food-1.jpg',
   tags: ['Cooldrink','Hotdrink'],
   },
   {
@@ -21,7 +21,7 @@ export const sample_foods: Food[]=[
   favourite:false,
   origins: ['Italy'],
   stars:4.7,
-  imageUrl:'src/food-2.jpg',
+  imageUrl:'assets/food-2.jpg',
   tags: ['Hotdrink'],
   },
   {
@@ -32,7 +32,7 @@ export const sample_foods: Food[]=[
   favourite:false,
   origins: ['Italy'],
   stars:4.0,
-  imageUrl:'src/food-3.jpg',
+  imageUrl:'assets/food-3.jpg',
   tags: ['Cooldrink','Hotdrink'],
   },
   {
@@ -43,7 +43,7 @@ export const sample_foods: Food[]=[
   favourite:true,
   origins: ['New York'],
   stars:4.1,
-  imageUrl:'src/food-4.jpg',
+  imageUrl:'assets/food-4.jpg',
   tags: ['Sweet'],
   },
   {
@@ -54,7 +54,7 @@ export const sample_foods: Food[]=[
   favourite:true,
   origins: ['Italy'],
   stars:4.6,
-  imageUrl:'src/food-5.jpg',
+  imageUrl:'assets/food-5.jpg',
   tags: ['Cooldrink'],
   },
   {
@@ -65,7 +65,7 @@ export const sample_foods: Food[]=[
   favourite:false,
   origins: ['Egypt'],
   stars:4.2,
-  imageUrl:'src/food-6.jpg',
+  imageUrl:'assetsfood-6.jpg',
   tags: ['Sweet'],
   },
 
@@ -74,8 +74,7 @@ export const sample_foods: Food[]=[
 
 export const sample_tags:Tag[] =[
   {name:'All',count:6},
-
-
-
-
+  {name:'Cooldrink',count:3},
+  {name:'Hotdrink',count:3},
+  {name:'sweet',count:2},
 ]
